@@ -92,3 +92,73 @@ a{
     font-size: 500%;
     margin-bottom: 2%;
 }
+
+/* SITUATION SECTION */
+
+.situation-section{
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+}
+
+.situation-main-text, .situation-ordinary-text{
+    text-align: center;
+}
+
+.situation-main-text{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.situation-ordinary-text{
+   padding: 0 5% 2%;
+}
+
+/* VIOLENCE SECTION */
+
+.problems-article{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+
+.problems-img{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+.problems-real-img{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.problems-img-1{
+    float: right;
+}
+
+.problems-img-2{
+    float: left;
+}
+
+.problems-text{
+    width: 50%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 120%;
+    padding-bottom: 0;
+}
+
+.problems-text-1{
+    float: left;
+    padding-top: 10%;
+}
+
+.problems-text-2{
+    float: right;
+    padding-top: 8%;
+}
+
