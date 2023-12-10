@@ -192,3 +192,30 @@ a{
     font-size: 500%;
     margin-bottom: 2%;
 }
+
+/* SALTANAT SECTION */
+
+.saltanat-section{
+    margin-top: 2%;
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+}
+
+.saltanat-img{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    float: left;
+}
+
+.saltanat-main-text{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.saltanat-ordinary-text{
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 6%;
+}
