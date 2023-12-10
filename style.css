@@ -20,7 +20,7 @@ a{
 /* NAV */
 
 .navigation{
-    background-color: rgb(118, 38, 38);
+    background-color: rgb(118, 38, 38); 
     color: #f4f4f4;
     display: flex;
     align-items: center;
@@ -162,3 +162,33 @@ a{
     padding-top: 8%;
 }
 
+/* VIOLENCE SECTION */
+
+.violence-main-text-1{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+/* .support-ordinary-text-2{
+    width: 95%;
+} */
+
+.violence-article-1{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.violence-article-2{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.violence-icon{
+    color: rgb(118, 38, 38);
+    font-size: 500%;
+    margin-bottom: 2%;
+}
