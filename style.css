@@ -219,3 +219,53 @@ a{
     padding-right: 5%;
     padding-bottom: 6%;
 }
+
+/* REGISTER SECTION */
+
+.register-main-text{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.register-button{
+    background-color: rgb(118, 38, 38);
+    border: 0;
+    border-radius: 10%;
+    color: #f4f4f4;
+    font-weight: 800;
+    font-size: 100%;
+    width: 7%;
+    padding: 0.5%;
+    margin-left: 46.5%;
+    margin-top: 1%;
+}
+
+input{
+    display: block;
+}
+
+::placeholder{
+    color: rgb(118, 38, 38);
+    font-weight: 700;
+    text-align: center;
+}
+
+.register-input{
+    width: 15%;
+    margin-left: 42.5%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.register-submit{
+    background-color: rgb(118, 38, 38);
+    border: 0;
+    border-radius: 8%;
+    color: #f4f4f4;
+    font-weight: 800;
+    font-size: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 43%;
+}
