@@ -36,6 +36,10 @@ a{
     padding-bottom: 2%;
 }
 
+.nav-logo:hover{
+    font-size: 300%;
+}
+
 .nav{
     width: 50%;
 }
@@ -43,6 +47,10 @@ a{
 .nav-element{
     display: inline-block;
     padding-left: 5%;
+}
+
+.nav-element:hover{
+    font-size: 150%;
 }
 
 /* HEADER */
@@ -268,4 +276,46 @@ input{
     padding: 1%;
     margin-top: 1%;
     margin-left: 43%;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 2%;
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    font-family: 'Kalnia', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 50%;
+}
+
+.footer-logo:hover{
+    font-size: 300%;
+}
+
+.footer-list{
+    width: 50%;
+}
+
+.footer-element{
+    display: inline-block;
+    padding-left: 5%;
+}
+
+.footer-icon{
+    font-size: 200%;
+}
+
+.footer-icon:hover{
+    font-size: 300%;
 }
