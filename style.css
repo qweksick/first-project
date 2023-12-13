@@ -178,10 +178,6 @@ a{
     margin-bottom: 2%;
 }
 
-/* .support-ordinary-text-2{
-    width: 95%;
-} */
-
 .violence-article-1{
     display: inline-block;
     width: 33%;
@@ -266,6 +262,10 @@ input{
     padding-bottom: 1%;
 }
 
+.register-input:focus{
+    border: rgb(118, 38, 38) solid 4px;
+}
+
 .register-submit{
     background-color: rgb(118, 38, 38);
     border: 0;
@@ -318,4 +318,151 @@ input{
 
 .footer-icon:hover{
     font-size: 300%;
+}
+
+/* MEDIA SCREEN */
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+    /* NAVIGATION */
+
+    .nav{
+        visibility: hidden;
+    }
+
+    .nav-logo{
+        text-align: center;
+    }
+    
+    /* SUPPORT SECTION */
+
+    .support-article{
+        display: block;
+        width: 100%;
+    }
+
+    .support-ordinary-text-2{
+        margin-left: 3%;
+    }
+
+    .support-icon{
+        margin-top: 2%;
+    }
+
+    /* SITUATION SECTION */
+
+    .situation-section{
+        font-size: 90%;
+        padding: 2% 5%;
+    }
+
+    /* PROBLEMS SECTION */
+
+    .problems-article{
+        display: block;
+    }
+
+    .problems-text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .problems-img{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .problems-text{
+        padding-bottom: 10%;
+    }
+
+    /* VIOLENCE SECTION */
+
+    .violence-main-text-1{
+        color: rgb(118, 38, 38);
+    }
+
+    .violence-article-1{
+        display: block;
+        width: 100%;
+    }
+    
+    .violence-article-2{
+        display: block;
+        width: 100%;
+    }
+
+    .violence-article-dark{
+        background-color: rgb(118, 38, 38);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: #f4f4f4;
+    }
+
+    .violence-icon-light{
+        color: #f4f4f4;
+    }
+
+    .violence-article-light{
+        color: rgb(118, 38, 38);
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    /* SALTANAT SECTION */
+
+    .saltanat-img{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+        margin-bottom: 2%;
+    }
+
+    .saltanat-article{
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+
+    /* REGISTER SECTION */
+
+    .register-button{
+        width: 15%;
+        margin-left: 42%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .register-input{
+        width: 45%;
+        margin-left: 27.5%;
+        margin-bottom: 2%;
+    }
+
+    .register-submit{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    /* FOOTER */
+
+    .footer{
+        margin-top: 2%;
+    }
+
+    .footer-logo:hover{
+        font-size: 150%;
+    }
+
+    .footer-list{
+        font-size: 90%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .footer-icon:hover{
+       font-size: 100%;
+    }
 }
