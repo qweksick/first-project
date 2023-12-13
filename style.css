@@ -1,0 +1,468 @@
+
+/* GLOBAL SETTINGS */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #f4f4f4;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+/* NAV */
+
+.navigation{
+    background-color: rgb(118, 38, 38); 
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    font-family: 'Kalnia', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.nav-logo:hover{
+    font-size: 300%;
+}
+
+.nav{
+    width: 50%;
+}
+
+.nav-element{
+    display: inline-block;
+    padding-left: 5%;
+}
+
+.nav-element:hover{
+    font-size: 150%;
+}
+
+/* HEADER */
+
+.header{
+    background-image: url(https://31tv.ru/wp-content/uploads/2021/07/Насилие.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.header-text{
+    text-align: center;
+    color: rgb(118, 38, 38);
+}
+
+#header-logo{
+    padding-top: 10%;
+}
+
+#header-ordinary-text{
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
+/* SUPPORT SECTION */
+
+.support-main-text{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.support-ordinary-text-2{
+    width: 95%;
+}
+
+.support-article{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.support-icon{
+    color: rgb(118, 38, 38);
+    font-size: 500%;
+    margin-bottom: 2%;
+}
+
+/* SITUATION SECTION */
+
+.situation-section{
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+}
+
+.situation-main-text, .situation-ordinary-text{
+    text-align: center;
+}
+
+.situation-main-text{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.situation-ordinary-text{
+   padding: 0 5% 2%;
+}
+
+/* VIOLENCE SECTION */
+
+.problems-article{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+}
+
+.problems-img{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+.problems-real-img{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.problems-img-1{
+    float: right;
+}
+
+.problems-img-2{
+    float: left;
+}
+
+.problems-text{
+    width: 50%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 120%;
+    padding-bottom: 0;
+}
+
+.problems-text-1{
+    float: left;
+    padding-top: 10%;
+}
+
+.problems-text-2{
+    float: right;
+    padding-top: 8%;
+}
+
+/* VIOLENCE SECTION */
+
+.violence-main-text-1{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.violence-article-1{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.violence-article-2{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.violence-icon{
+    color: rgb(118, 38, 38);
+    font-size: 500%;
+    margin-bottom: 2%;
+}
+
+/* SALTANAT SECTION */
+
+.saltanat-section{
+    margin-top: 2%;
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+}
+
+.saltanat-img{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    float: left;
+}
+
+.saltanat-main-text{
+    text-align: center;
+    padding-top: 7%;
+}
+
+.saltanat-ordinary-text{
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 6%;
+}
+
+/* REGISTER SECTION */
+
+.register-main-text{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.register-button{
+    background-color: rgb(118, 38, 38);
+    border: 0;
+    border-radius: 10%;
+    color: #f4f4f4;
+    font-weight: 800;
+    font-size: 100%;
+    width: 7%;
+    padding: 0.5%;
+    margin-left: 46.5%;
+    margin-top: 1%;
+}
+
+input{
+    display: block;
+}
+
+::placeholder{
+    color: rgb(118, 38, 38);
+    font-weight: 700;
+    text-align: center;
+}
+
+.register-input{
+    width: 15%;
+    margin-left: 42.5%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.register-input:focus{
+    border: rgb(118, 38, 38) solid 4px;
+}
+
+.register-submit{
+    background-color: rgb(118, 38, 38);
+    border: 0;
+    border-radius: 8%;
+    color: #f4f4f4;
+    font-weight: 800;
+    font-size: 100%;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 43%;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 2%;
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    font-family: 'Kalnia', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    margin-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 50%;
+}
+
+.footer-logo:hover{
+    font-size: 300%;
+}
+
+.footer-list{
+    width: 50%;
+}
+
+.footer-element{
+    display: inline-block;
+    padding-left: 5%;
+}
+
+.footer-icon{
+    font-size: 200%;
+}
+
+.footer-icon:hover{
+    font-size: 300%;
+}
+
+/* MEDIA SCREEN */
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+    /* NAVIGATION */
+
+    .nav{
+        visibility: hidden;
+    }
+
+    .nav-logo{
+        text-align: center;
+    }
+    
+    /* SUPPORT SECTION */
+
+    .support-article{
+        display: block;
+        width: 100%;
+    }
+
+    .support-ordinary-text-2{
+        margin-left: 3%;
+    }
+
+    .support-icon{
+        margin-top: 2%;
+    }
+
+    /* SITUATION SECTION */
+
+    .situation-section{
+        font-size: 90%;
+        padding: 2% 5%;
+    }
+
+    /* PROBLEMS SECTION */
+
+    .problems-article{
+        display: block;
+    }
+
+    .problems-text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .problems-img{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .problems-text{
+        padding-bottom: 10%;
+    }
+
+    /* VIOLENCE SECTION */
+
+    .violence-main-text-1{
+        color: rgb(118, 38, 38);
+    }
+
+    .violence-article-1{
+        display: block;
+        width: 100%;
+    }
+    
+    .violence-article-2{
+        display: block;
+        width: 100%;
+    }
+
+    .violence-article-dark{
+        background-color: rgb(118, 38, 38);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: #f4f4f4;
+    }
+
+    .violence-icon-light{
+        color: #f4f4f4;
+    }
+
+    .violence-article-light{
+        color: rgb(118, 38, 38);
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    /* SALTANAT SECTION */
+
+    .saltanat-img{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0%;
+        margin-bottom: 2%;
+    }
+
+    .saltanat-article{
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+
+    /* REGISTER SECTION */
+
+    .register-button{
+        width: 15%;
+        margin-left: 42%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .register-input{
+        width: 45%;
+        margin-left: 27.5%;
+        margin-bottom: 2%;
+    }
+
+    .register-submit{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    /* FOOTER */
+
+    .footer{
+        margin-top: 2%;
+    }
+
+    .footer-logo:hover{
+        font-size: 150%;
+    }
+
+    .footer-list{
+        font-size: 90%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .footer-icon:hover{
+       font-size: 100%;
+    }
+}
