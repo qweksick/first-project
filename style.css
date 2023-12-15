@@ -122,7 +122,7 @@ a{
    padding: 0 5% 2%;
 }
 
-/* VIOLENCE SECTION */
+/* PROBLEMS SECTION */
 
 .problems-article{
     display: inline-block;
@@ -195,6 +195,20 @@ a{
     color: rgb(118, 38, 38);
     font-size: 500%;
     margin-bottom: 2%;
+}
+
+/* VALUE SECTION */
+
+.value-section{
+    background-color: rgb(118, 38, 38);
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2% 0;
+    margin-top: 2%;
+}
+
+.value-main-text{
+    margin-bottom: 1%;
 }
 
 /* SALTANAT SECTION */
@@ -308,7 +322,7 @@ input{
 }
 
 .footer-element{
-    display: inline-block;
+    display: inline;
     padding-left: 5%;
 }
 
@@ -463,6 +477,10 @@ input{
     }
 
     .footer-icon:hover{
-       font-size: 100%;
+       font-size: 90%;
+    }
+
+    .footer-element{
+        display: inline;
     }
 }
